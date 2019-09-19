@@ -1,0 +1,61 @@
+*{transition: all .1s ease-in;}
+body {
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: #3B3F45;
+    color: aliceblue;
+}
+header {
+    margin:0 auto;
+    background-color: #4A4F56;
+    color: #EB7E7F;
+    text-align: center;
+    padding: 5px;
+}
+footer{
+    margin: 0 auto;
+    background-color: #4A4F56;
+    color:#EB7E7F;
+    text-align: center;
+    width: 50%;
+    padding: 2px 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    margin: 0 auto;
+    background-color: #7b7694;
+    width: 50%;
+    padding: 15px 0px;
+}
+li:nth-child(odd){
+    background-color: #89849f;
+
+}
+li:hover{
+    background-color: #625E77;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+li:active{
+    background-color: red;
+}
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color: darkgray;
+}
+label>span::before {
+    content: "(";
+}
+label>span::after {
+    content: ")";
+}
+span{
+    font-size: 12px;
+    color:rgb(201, 199, 199);
+    margin: 8px;
+}
+
