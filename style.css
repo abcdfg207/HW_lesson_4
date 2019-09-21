@@ -2,8 +2,8 @@
 body {
     font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
     font-size: 1.1em;
-    background-color: #3B3F45;
-    color: aliceblue;
+    background-color:#3B3F45;
+    color: aliceblue; 
 }
 header {
     margin:0 auto;
